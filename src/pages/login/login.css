@@ -1,0 +1,55 @@
+body{
+  background: url(../../assets/img/bg.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.login-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-btn{
+  font-size: 25px;
+border: 1px solid rgb(12, 166, 255);
+border-radius: 25px;
+background: none;
+padding: 10px 20px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+}
+
+.label-error{
+  color: rgb(255, 0, 0);
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: fit-content;
+  height: fit-content;
+}
+
+.label-alert{
+  color: rgb(255, 0, 0);
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: fit-content;
+  height: fit-content;
+}
+
+.login-content{
+  text-align: center;
+}
+
+.home-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px 20px;
+}
